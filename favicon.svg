@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E5142E"/>
+      <stop offset="0.55" stop-color="#B10024"/>
+      <stop offset="1" stop-color="#1B1140"/>
+    </linearGradient>
+    <linearGradient id="petalGrad" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF2B5"/>
+      <stop offset="1" stop-color="#FF8A4C"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)"/>
+  <path d="M32 8 C 40 14, 44 22, 44 32 C 44 42, 40 50, 32 56 C 24 50, 20 42, 20 32 C 20 22, 24 14, 32 8 Z" fill="url(#petalGrad)" opacity="0.95"/>
+  <path d="M32 8 C 24 14, 20 22, 20 32 C 20 42, 24 50, 32 56" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.35" fill="none"/>
+  <circle cx="32" cy="32" r="7.5" fill="#0D0A26"/>
+  <path d="M28.5 31.2 L 28.5 29 A 3.5 3.5 0 0 1 35.5 29 L 35.5 31.2" stroke="#FFD37A" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <rect x="27.5" y="31" width="9" height="6.5" rx="1.3" fill="#FFD37A"/>
+  <circle cx="32" cy="34.2" r="1" fill="#0D0A26"/>
+</svg>
